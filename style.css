@@ -138,3 +138,8 @@ h1
         color: rgb(237, 237, 237);
         background-color: rgb(125, 125, 252);
     }
+
+    .carousel-caption-bg{
+        background-color: rgba(0,0,0,0.4);
+        border-radius: 20px;
+    }
