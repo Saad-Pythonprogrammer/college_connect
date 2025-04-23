@@ -1,0 +1,140 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Winky Rough";
+}
+
+button
+{
+    cursor: pointer;
+}
+
+nav
+{
+
+    position: sticky;
+    top: 0;
+}
+ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background:  black;
+    list-style: none; 
+    padding: 35px 25px;  
+    font-size: 20px;
+    font-style: bold;  
+    width: 100%;
+                                                                                                    ;
+}
+
+ul a
+{
+    text-decoration: none;
+    color: white;
+}
+
+ul a:hover
+{
+    color: rgb(228, 227, 227);
+    text-decoration: underline;
+}
+
+img#nav-logo
+{
+    width: 25px;
+    height: 25px;
+    filter: invert(1);
+}
+
+.banner
+{
+    width: 100%;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.banner img
+{
+    width: 100%;
+    /* height: 35vh; */
+    border-radius: 25px;
+    margin-top: 35px;
+
+
+}
+
+.events
+{
+    margin-top: 35px;
+}
+.events-inner
+{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 35px;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 72px;
+    text-decoration: underline;
+}
+
+.event-card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 250px;
+    /* border: 2px solid blue; */
+    padding: 15px 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+    transition: 200ms ease-in all;
+    cursor: pointer;
+    
+}
+
+.event-card:hover
+{
+    box-shadow: 0 0 15px black;
+
+}
+
+.event-img
+{
+     width: 75px;
+     height: 75px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+    }
+    
+    .event-btn
+    {
+        border: none;
+        outline: none;
+        padding: 15px 35px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-style: 900;
+        color: white;
+        background-color: rgb(80, 80, 255);
+        
+    }
+    
+    .event-btn:hover
+    {
+        color: rgb(237, 237, 237);
+        background-color: rgb(125, 125, 252);
+    }

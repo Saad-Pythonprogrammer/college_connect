@@ -1,0 +1,97 @@
+.About{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 25px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    background-color: rgb(241, 204, 204);
+}
+
+h1{
+    font-size: 30px ;
+    font-weight: 300;
+}
+h4{
+    font-weight: 200;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.image{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.Vision{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 30vw;
+    padding: 20px;
+    
+}
+
+.Mission{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 30vw;
+    padding: 20px;
+}
+
+.vm{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    row-gap: 30px;
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 30px;
+    
+    
+}
+
+.container h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.carousel-caption-bg{
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 20px;
+}
+
+.members{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+
+
+}
+.member {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    background-position: center;
+}
+
+.member img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.member-bg{
+    background-color: rgb(213, 213, 252);
+}
